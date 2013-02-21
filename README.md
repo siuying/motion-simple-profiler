@@ -23,7 +23,7 @@ Profiler.profile MyClass, :long_running_task
 Running `self.long_running_task` will print:
 
 ```
-MyClass#long_running_task runtime: 1.63304 s ***
+MyClass#long_running_task runtime: 1.63304 s
 ```
 
 ## Advance
@@ -52,3 +52,6 @@ Same example above will print:
 
 motion-simple-profiler is inspired by [Ruby AOP in 12 lines of Code](http://uberpwn.wordpress.com/2011/03/14/ruby-aop-in-12-lines-of-code/) and [NanoProfiler](https://raw.github.com/tomersh/NanoProfiler).
 
+## License
+
+Please refer to [LICENSE](https://raw.github.com/siuying/motion-simple-profiler/master/LICENSE).

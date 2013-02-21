@@ -4,8 +4,8 @@ Gem::Specification.new do |s|
 
   s.authors = ["Francis Chong"]
   s.date = "2013-02-21"
-  s.description = "Measure a function's runtime without adding a single line of code to the original function."
-  s.summary = "Measure a function's runtime without adding a single line of code to the original function."
+  s.description = "RubyMotion extension to log method runtime without adding a single line of code to original class."
+  s.summary = "RubyMotion extension to log method runtime without adding a single line of code to original class."
   s.email = "francis@ignition.hk"
   s.files = [
     "LICENSE",
