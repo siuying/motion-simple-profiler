@@ -5,8 +5,10 @@ motion-simple-profiler measure a function's runtime, without actualy the needs o
 
 Use it when you need to know how long it takes for a function to run, but you don't want to use tools like instruments.
 
-## Installation
+## Install
 
+1. ```gem 'motion-simple-profiler'```
+2. ```require 'motion-simple-profiler'``` or add to your ```Gemfile```
 
 ## Usage
 
