@@ -1,7 +1,7 @@
 Simple Profiler for RubyMotion
 ==============================
 
-motion-simple-profiler measure a function's runtime, without actualy the needs of changing the function itself. 
+motion-simple-profiler is a RubyMotion extension to log method runtime without adding a single line of code to original class.
 
 Use it when you need to know how long it takes for a function to run, but you don't want to use tools like instruments.
 
