@@ -12,10 +12,14 @@ module Profiler
         result      = self.send(_symbol, *args)
         end_time    = Time.now
 
-        puts "%s#%s runtime: %.4f" % [clazz_name, method_name, (end_time-start_time).to_f]
+        profile_log(clazz_name, method_name, start_time, end_time)
 
         result
       end
+    end
+
+    def profile_log(clazz_name, method_name, start_time, end_time)
+      puts "%s#%s runtime: %.5f s" % [clazz_name, method_name, (end_time-start_time).to_f]
     end
   end
   Object.send(:include, ::Profiler::ObjectExt)
