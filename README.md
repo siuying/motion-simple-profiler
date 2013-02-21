@@ -26,7 +26,7 @@ Running `self.long_running_task` will print:
 MyClass#long_running_task runtime: 1.63304 s
 ```
 
-## Advance
+## Customization
 
 You can modify the profiler log output by override the Profiler::ObjectExt#profile_log method.
 
